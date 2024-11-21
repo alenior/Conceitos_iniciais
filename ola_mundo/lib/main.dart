@@ -5,6 +5,8 @@ void main() {
 }
 
 class AppWidget extends StatelessWidget {
+  late final String title;
+  
   @override
   Widget build(BuildContext context) {
     return Container(
